@@ -5,5 +5,10 @@
   "license": "MIT",
   "dependencies": {
     "jest": "^22.1.4"
+  },
+  "scripts": {
+    "jest": "node_modules/jest/bin/jest.js",
+    "test:watch": "npm run jest -- --watchAll",
+    "test": "npm run jest -- --forceExit"
   }
 }
